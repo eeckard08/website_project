@@ -1,0 +1,153 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color:#1f2937;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header  {
+    display: flex;
+    font-family: roboto;
+    justify-content: space-between;
+    /*padding-right: 20px; */
+    justify-content:baseline;
+    /*padding-left: 20px;*/
+    padding-bottom: 70px;
+    padding-top: 10px;
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+  ul {
+    /* this removes the dots on the list items*/
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+  }
+  a {
+    font-size: 18px;
+    padding: 8px;
+    /* this removes the line under the links */
+    text-decoration: none;
+    color: #eecb2f;
+  }
+
+  .one {
+      display: flex;
+      color: #faf9f8;
+      height: 400px;
+      background-color:#1f2937;
+      padding-left: 160px;
+      padding-right: 160px;
+  }
+  .title {
+      font-size: 48px;
+      font-weight: bold;
+      padding-bottom: 8px;
+  }
+  .tagline {
+      font-size: 18px;
+      padding-bottom: 12px;
+      color: #e5e7eb;
+      font-weight: lighter;
+  }
+  .topbutton {
+      border-radius: 8px;
+      background-color: #3882f6;
+      color:#faf9f8;
+      font-size: 18px;
+      padding: 6px 30px;
+      border: 0;
+      font-weight: 700;
+  }
+  .first {
+      width: 522px;
+      height: 224px;
+  }
+  .two {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 350px;
+      background-color:#faf9f8;
+      padding:0px;
+      padding-left: 160px;
+      padding-right: 160px;
+      justify-content: center;
+  }
+.title2 {
+    padding-top: 12px;
+    padding-bottom: 24px;
+}
+  .cardholder {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 700px;
+  }
+  .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+  }
+  .twoimage {
+      height: 150px;
+      width: 150px;
+      border-radius: 6px;
+  }
+.three {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    justify-content: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+.author {
+    display: flex;
+    font-size: 24px;
+    align-self: flex-end;
+    font-weight: bold;
+}
+.four {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 50px;
+    background-color: #faf9f8;
+}
+.fourbox {
+    display: flex;
+    background-color: #3882f6;
+    min-width: 800px;
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 12px;
+    font-size: 24px;
+    color:#faf9f8;
+    justify-content: space-between;
+
+}
+.fourboxleftbody {
+    font-size: 12px;
+}
+.bottombutton {
+    border-radius: 8px;
+    background-color: #3882f6;
+    color:#faf9f8;
+    font-size: 18px;
+    padding: 6px 30px;
+    font-weight: 700;
+    border-color:#faf9f8;
+    border-style:solid;
+}
